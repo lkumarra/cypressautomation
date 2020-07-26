@@ -1,0 +1,18 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "cypress automation framework",
+  "main": "index.js",
+  "scripts": {
+    "cyopen": "node_modules/.bin/cypress open",
+    "cyrun":"./node_modules/.bin/cypress run",
+    "cyrunheaded":"./node_modules/.bin/cypress run --headed",
+    "cyrunchrome":"./node_modules/.bin/cypress run --browser chrome",
+    "cyrunedge":"./node_modules/.bin/cypress run --browser edge"
+  },
+  "author": "Lavendra Kumar Rajput",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.11.0"
+  }
+}
